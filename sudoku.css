@@ -1,0 +1,36 @@
+#center{
+    margin: 10% 30%;
+    width: 50%;
+    border: 1px solid black;
+}
+#sudoku{
+    text-align: center;
+    font-size: 60px;
+}
+
+#user{
+    font-size: 50px;    
+    align-items: center;
+    width: 500px;
+    height: 60px;
+    margin: 5% 10%;
+    padding-left: 10px;
+}
+
+#psw{
+    font-size: 50px;    
+    align-items: center;
+    width: 500px;
+    height: 6 0px;
+    margin: 5% 10%;
+    padding-left: 10px;
+}
+
+#button{
+     background-color: darkcyan;
+    color: white;
+    margin: 5% 39%;
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+}

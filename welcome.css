@@ -1,0 +1,38 @@
+#welcomePage {
+    border-style: solid;
+    border-color: purple;
+    border-width: 5px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    text-align: center;
+    padding: 25px;
+    
+}
+#header{
+    font-size: 120px;
+}
+
+#smallHeader{
+    font-size: 65px;
+
+}
+
+.b{
+    margin-left: 50px;
+    margin-right: 50px;
+    flex: 1;
+    width: 65px; 
+    height: 55px;  
+    
+}
+
+#buttons  {
+   display: flex;
+    text-align: center;
+
+}
+.links {
+   flex:1;
+}

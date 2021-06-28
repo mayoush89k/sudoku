@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <metaname="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="game">
+            <a href="./welcome.html" > Back</a>
+        <table>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('000')" name="cell" class="cell" id="000"></td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('001')" name="cell" class="cell" id="001"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('002')" name="cell" class="cell" id="002"> </td>
+                        </tr>
+                        <tr>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('010')" name="cell" class="cell" id="010"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('011')" name="cell" class="cell" id="011"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('012')" name="cell" class="cell" id="012"> </td>
+                        </tr>
+                        <tr>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('020')" name="cell" class="cell" id="020"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('021')" name="cell" class="cell" id="021"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('022')" name="cell" class="cell" id="022"> </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr> 
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('103')" name="cell" class="cell" id="103"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('104')" name="cell" class="cell" id="104"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('105')" name="cell" class="cell" id="105"> </td>
+                        </tr>
+                        <tr>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('113')" name="cell" class="cell" id="113"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('114')" name="cell" class="cell" id="114"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('115')" name="cell" class="cell" id="115"> </td>
+                        </tr>
+                        <tr>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('123')" name="cell" class="cell" id="123"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('124')" name="cell" class="cell" id="124"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('125')" name="cell" class="cell" id="125"> </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('206')" name="cell" class="cell" id="206"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('207')" name="cell" class="cell" id="207"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('208')" name="cell" class="cell" id="208"> </td>
+
+                        </tr>
+                        <tr>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('216')" name="cell" class="cell" id="216"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('217')" name="cell" class="cell" id="217"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('218')" name="cell" class="cell" id="218"> </td>
+                        </tr>
+                        <tr>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('226')" name="cell" class="cell" id="226"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('227')" name="cell" class="cell" id="227"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('228')" name="cell" class="cell" id="228"> </td>
+
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('330')" name="cell" class="cell" id="330"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('331')" name="cell" class="cell" id="331"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('332')" name="cell" class="cell" id="332"> </td>
+                        </tr>
+                        <tr>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('340')" name="cell" class="cell" id="340"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('341')" name="cell" class="cell" id="341"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('342')" name="cell" class="cell" id="342"> </td>
+                        </tr>
+                        <tr>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('350')" name="cell" class="cell" id="350"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('351')" name="cell" class="cell" id="351"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('352')" name="cell" class="cell" id="352"> </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('433')" name="cell" class="cell" id="433"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('434')" name="cell" class="cell" id="434"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('435')" name="cell" class="cell" id="435"> </td>
+                        </tr>
+                        <tr>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('443')" name="cell" class="cell" id="443"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('444')" name="cell" class="cell" id="444"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('445')" name="cell" class="cell" id="445"> </td>
+                        </tr>
+                        <tr>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('453')" name="cell" class="cell" id="453"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('454')" name="cell" class="cell" id="454"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('455')" name="cell" class="cell" id="455"> </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('536')" name="cell" class="cell" id="536"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('537')" name="cell" class="cell" id="537"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('538')" name="cell" class="cell" id="538"> </td>
+
+                        </tr>
+                        <tr>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('546')" name="cell" class="cell" id="546"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('547')" name="cell" class="cell" id="547"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('548')" name="cell" class="cell" id="548"> </td>
+
+                        </tr>
+                        <tr>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('556')" name="cell" class="cell" id="556"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('557')" name="cell" class="cell" id="557"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('558')" name="cell" class="cell" id="558"> </td>
+
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('660')" name="cell" class="cell" id="660"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('661')" name="cell" class="cell" id="661"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('662')" name="cell" class="cell" id="662"> </td>
+                        </tr>
+                        <tr>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('670')" name="cell" class="cell" id="670"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('671')" name="cell" class="cell" id="671"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('672')" name="cell" class="cell" id="672"> </td>
+                        </tr>
+                        <tr>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('680')" name="cell" class="cell" id="680"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('681')" name="cell" class="cell" id="681"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('682')" name="cell" class="cell" id="682"> </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('763')" name="cell" class="cell" id="763"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('764')" name="cell" class="cell" id="764"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('765')" name="cell" class="cell" id="765"> </td>
+                        </tr>
+                        <tr>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('773')" name="cell" class="cell" id="773"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('774')" name="cell" class="cell" id="774"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('775')" name="cell" class="cell" id="775"> </td>
+                        </tr>
+                        <tr>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('783')" name="cell" class="cell" id="783"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('784')" name="cell" class="cell" id="784"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('785')" name="cell" class="cell" id="785"> </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('866')" name="cell" class="cell" id="866"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('867')" name="cell" class="cell" id="867"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('868')" name="cell" class="cell" id="868"> </td>
+                        </tr>
+                        <tr>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('876')" name="cell" class="cell" id="876"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('877')" name="cell" class="cell" id="877"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('878')" name="cell" class="cell" id="878"> </td>
+                        </tr>
+                        <tr>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('886')" name="cell" class="cell" id="886"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('887')" name="cell" class="cell" id="887"> </td>
+                            <td><input maxlength="1" oninput="this.value=this.value.replace(/[^1-9]/g,'');"
+                                    onchange="inputCell('888')" name="cell" class="cell" id="888"> </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <div>
+            <p id="error"></p>
+        </div>
+        <div id="center">
+            <button class="buttons" onclick="finish()">Finish</button>
+            <button class="buttons" onclick="again()">Again</button>
+        </div>
+    </div>
+    <script src="sudoku.js"></script>
+</body>
+
+</html>
