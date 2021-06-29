@@ -9,8 +9,8 @@
 <body>
     <div id="center">
         <p id = "sudoku">Sudoku</p>
-        <input type = "text" id = "user" placeholder="Username"></input>
-        <input type ="password" id ="psw" placeholder="password"></input>    
+        <input type = "text" id = "user" placeholder="Username" alt="ABCD" onclick = "hint('User')"/>
+        <input type ="password" id ="psw" placeholder="password" onclick ="hint('Pswrd')"/>    
         <button id="button" onclick="enter()">enter</button> 
     </div>
     <script src="sudoku.js"></script>

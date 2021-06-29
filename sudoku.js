@@ -80,6 +80,15 @@ function enter() {
     }
 }
 
+function hint(hint){
+    if(hint == 'User'){
+        alert("ABCD");
+    }
+    else if(hint == 'Pswrd'){
+        alert("1234");
+    }
+}
+
 //level button from Welcome.html
 function chooseLevel(clickedLevel) {
     localStorage.setItem(level, clickedLevel);             // save the level to local storage, to be used later
@@ -288,3 +297,4 @@ function inputCell(cell){
     }
 
 }
+
