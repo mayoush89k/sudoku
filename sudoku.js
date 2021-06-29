@@ -92,7 +92,7 @@ function hint(hint){
 //level button from Welcome.html
 function chooseLevel(clickedLevel) {
     localStorage.setItem(level, clickedLevel);             // save the level to local storage, to be used later
-    window.location.replace('./game.html');     // open page of game
+    window.location.replace('/game.html');     // open page of game
 }
 
 //save the level to the game.html
