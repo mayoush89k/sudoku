@@ -76,7 +76,7 @@ function enter() {
         alert("password is not correct");
     }
     else {// go to page of level (welcome)
-        window.location.replace('./welcome.html');
+        <a href="https://mayoush89k.github.io/sudoku/welcome.html"/>
     }
 }
 
